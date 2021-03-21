@@ -72,15 +72,15 @@ header {
     padding: 5px 0px; }
     header .main-nav .logo {
       width: 20%;
+      max-width: 200px;
       flex: 1 1 20%;
-      max-width: 20%;
       display: block;
       padding: 0 15px; }
       @media screen and (max-width: 768px) {
         header .main-nav .logo {
           width: 100%;
+          max-width: 200px;
           flex: 1 1 100%;
-          max-width: 100%;
           padding: 10px 15px; } }
     header .main-nav .my-nav {
       width: 80%;
@@ -113,7 +113,7 @@ header {
             display: none; }
           header .main-nav .my-nav .menu ul li:nth-child(6) a span::before {
             font-size: 1.875rem; }
-          header .main-nav .my-nav .menu ul li:nth-child(7) {
+          header .main-nav .my-nav .menu ul li:last-child {
             background-color: #fff;
             border-radius: 1.875rem; }
             @media screen and (max-width: 768px) {
