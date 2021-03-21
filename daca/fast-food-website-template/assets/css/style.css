@@ -358,7 +358,6 @@ header {
       border-radius: 20px;
       cursor: pointer; }
       .bg-02 .content ol li:nth-child(2) {
-        background: unset;
         margin-left: 1.875rem; }
         .bg-02 .content ol li:nth-child(2) a {
           color: #483f3f;
@@ -1031,4 +1030,14 @@ footer {
         margin: 0 0.625rem;
         color: #ddd; }
 
+.sentence h2 {
+  text-transform: capitalize;
+  font-size: 1.875rem;
+  color: #483f3f;
+  margin: .625rem auto;
+  font-weight: 600;
+
+}
+
 /*# sourceMappingURL=style.css.map */
+
