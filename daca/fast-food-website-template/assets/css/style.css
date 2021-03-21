@@ -176,6 +176,12 @@ header {
 .slider {
   position: relative;
   padding: 0; }
+  .carousel-indicators .active {
+    background-color: #f29307;
+  }
+  .carousel-indicators li {
+    background-color: rgb(255 217 162);
+}
   .slider .shape {
     position: absolute;
     background: url(../images/shapes/shape.png);
