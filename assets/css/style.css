@@ -303,6 +303,11 @@ header .menu.active::before {
   font-weight: 600;
   line-height: 4.25rem;
 }
+@media (max-width: 600px) {
+  .slider .banner .wrapper .content h1 {
+    font-size: 2.5rem;
+  }
+}
 .slider .banner .wrapper .content h5 {
   font-size: 1.25rem;
   font-weight: 400;
