@@ -253,6 +253,11 @@ header .menu.active::before {
   top: 0;
   right: 0;
 }
+@media (max-width: 600px) {
+  .slider .shape {
+    width: 45%;
+  }
+}
 .slider .shape-01 {
   position: absolute;
   left: -100px;
